@@ -22,7 +22,10 @@ class Book(object):
         self.title = title
 
     def display(self):
-        """Displays a book's title and author."""
+        """Displays a book's title and author.
+        Args: None
+        Return: None
+        """
         print "{}, written by {}".format(self.title, self.author)
 
 B1 = Book('John Steinbeck', 'Of Mice and Men')
